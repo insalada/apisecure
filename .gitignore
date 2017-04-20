@@ -25,3 +25,6 @@ nbdist/
 
 ### Maven
 target/
+mvnw
+mvnw.cmd
+.mvn/
