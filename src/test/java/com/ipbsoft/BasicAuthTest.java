@@ -23,11 +23,9 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
-//@ContextConfiguration(classes = AppConfig.class)
 @ContextConfiguration
 @WebAppConfiguration
-//@WebMvcTest
-//@Import(SecurityConfig.class)
+
 public class BasicAuthTest {
 
 	@Autowired
